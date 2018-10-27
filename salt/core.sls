@@ -19,3 +19,9 @@ tmux:
 mtr:
   pkg.installed
 
+zip:
+  pkg.installed
+
+unzip:
+  pkg.installed
+
