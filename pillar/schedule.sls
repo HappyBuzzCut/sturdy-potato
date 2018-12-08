@@ -1,5 +1,5 @@
 schedule:
   highstate:
     function: state.highstate
-    minutes: 60
+    minutes: 15
     maxrunning: 1

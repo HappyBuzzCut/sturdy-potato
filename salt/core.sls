@@ -25,3 +25,5 @@ zip:
 unzip:
   pkg.installed
 
+sysstat:
+  pkg.installed
