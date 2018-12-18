@@ -1,5 +1,5 @@
 base:
   '*':
     - core
-#    - users
+    - users
 
