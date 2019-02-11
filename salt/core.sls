@@ -7,23 +7,25 @@ vim:
   pkg.installed 
   {% endif %}
 
+sudo:
+  pkg.installed
 lsof:
   pkg.installed
-
 screen:
   pkg.installed
-
 tmux:
   pkg.installed
-
 mtr:
   pkg.installed
-
 zip:
   pkg.installed
-
 unzip:
   pkg.installed
-
 sysstat:
+  pkg.installed
+wget:
+  pkg.installed
+rsync:
+  pkg.installed
+mlocate:
   pkg.installed
