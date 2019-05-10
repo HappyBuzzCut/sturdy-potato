@@ -29,3 +29,4 @@ rsync:
   pkg.installed
 mlocate:
   pkg.installed
+

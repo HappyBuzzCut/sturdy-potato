@@ -1,5 +1,6 @@
 base:
   '*':
-    - core
-    - users
+   - core
+   - users
+   - configs
 
