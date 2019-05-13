@@ -7,6 +7,11 @@ vim:
   pkg.installed 
   {% endif %}
 
+{% if grains['os_family'] == 'RedHat'%}
+setroubleshoot-server:
+  pkg.installed
+{% endif %}
+
 sudo:
   pkg.installed
 lsof:
