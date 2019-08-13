@@ -2,6 +2,6 @@ base:
   '*':
    - core
    - selinux
-   - users
    - configs
+   - users
 

@@ -34,4 +34,6 @@ rsync:
   pkg.installed
 mlocate:
   pkg.installed
+patch:
+  pkg.installed
 
