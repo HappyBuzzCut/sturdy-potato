@@ -5,3 +5,7 @@ base:
    - configs
    - users
 
+  'mydb-silo*':
+   - mysqlserver
+
+
