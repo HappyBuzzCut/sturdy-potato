@@ -1,11 +1,11 @@
 vim:
-  {% if grains['os_family'] == 'RedHat'%}
+{% if grains['os_family'] == 'RedHat'%}
   pkg.installed:
     - name: vim-enhanced
 
-  {% else %}
+{% else %}
   pkg.installed 
-  {% endif %}
+{% endif %}
 
 {% if grains['os_family'] == 'RedHat'%}
 setroubleshoot-server:
@@ -36,4 +36,8 @@ mlocate:
   pkg.installed
 patch:
   pkg.installed
+
+
+America/Chicago:
+  timezone.system
 
