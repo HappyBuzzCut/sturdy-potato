@@ -15,7 +15,7 @@ zabbix:
     - gpgcheck: 1
     - gpgkey: "https://repo.zabbix.com/RPM-GPG-KEY-ZABBIX-A14FE591"
 
-zabbix:
+zabbix-unsupported:
   pkgrepo.managed:
     - humanname: Zabbix Official Repository (non-supported) - $basearch
     - baseurl: "https://repo.zabbix.com/non-supported/rhel/8/$basearch/"
