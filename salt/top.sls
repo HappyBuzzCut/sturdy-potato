@@ -6,7 +6,5 @@ base:
 
   'mydb-silo*':
    - mysqlserver
-  'horzine.hoffmann.lan':
+  'swarm*':
    - docker
-
-

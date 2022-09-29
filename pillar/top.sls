@@ -1,4 +1,10 @@
 base:
   '*':
-    - schedule
+   - core
+   - configs
+   - users
 
+  'mydb-silo*':
+   - mysqlserver
+  'swarm*':
+   - docker
