@@ -5,8 +5,11 @@ zabbix-agent2.service:
 zabbix-agent2:
     pkg.removed
 
-/etc/yum.repos.d/zabbix*:
-    file.absent
+zabbix:
+    pkgrepo.absent
+
+zabbix-unsupported:
+    pkrepo.absent
 
 /etc/zabbix/:
     file.absent
