@@ -26,7 +26,7 @@ zabbix-unsupported:
 zabbix-agent2:
   pkg.installed
 
-/etc/zabbix/zabbix-agent2.conf:
+/etc/zabbix/zabbix_agent2.conf:
   file.managed:
     - source: salt://files/zabbix-agent2/zabbix_agent2.conf
     - template: jinja
