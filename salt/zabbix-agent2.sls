@@ -28,7 +28,7 @@ zabbix-agent2:
 
 /etc/zabbix/zabbix-agent2.conf:
   file.managed:
-    - source: salt://files/zabbix-agent2/zabbix-agent2.conf
+    - source: salt://files/zabbix-agent2/zabbix_agent2.conf
     - template: jinja
     - context:
       {% if grains['host'].startswith('zbx') %}
