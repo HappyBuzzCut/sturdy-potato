@@ -42,4 +42,5 @@ zabbix-agent2:
 zabbix-agent2.service:
   service.running:
     - enable: True
+    - full_restart: True
 
