@@ -9,7 +9,7 @@ zabbix:
     pkgrepo.absent
 
 zabbix-unsupported:
-    pkrepo.absent
+    pkgrepo.absent
 
 /etc/zabbix/:
     file.absent
