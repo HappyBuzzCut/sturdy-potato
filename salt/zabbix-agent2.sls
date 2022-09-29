@@ -42,5 +42,7 @@ zabbix-agent2:
 zabbix-agent2.service:
   service.running:
     - enable: True
+    - watch:
+      - file: /etc/zabbix/zabbix_agent2.conf
     - full_restart: True
 
