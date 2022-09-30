@@ -9,7 +9,7 @@ infranet:
     - name: infranet
     - services:
       - zabbix-agent
-    - prune_services: True
+    - prune_sources: True
     - sources:
     {% if grains['domain'] == 'hoffmann.lan'%}
         - 10.30.1.100/32
