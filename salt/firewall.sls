@@ -13,6 +13,6 @@ infranet:
     {% if grains['domain'] == 'hoffmann.lan'%}
         - 10.30.1.100/32
     {% else %}
-        - zbx-master.exhilaro.com
+        - 144.202.70.135/32
     {% endif %}
     
