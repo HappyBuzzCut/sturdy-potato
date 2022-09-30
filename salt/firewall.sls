@@ -10,4 +10,9 @@ infranet:
     - services:
       - zabbix-agent
     - sources:
-      - 10.30.1.100/32
+    {% elif grains['domain'] == 'hoffmann.lan'%}
+        - 10.30.1.100/32
+    {% else %}
+        - zbx-master.exhilaro.com
+    {% endif %}
+    

@@ -36,7 +36,7 @@ zabbix-agent2:
       {% elif grains['domain'] == 'hoffmann.lan'%}
         server: zbx-proxy.hoffmann.lan
       {% else %}
-        server: zbx-master.exhilaro.lan
+        server: zbx-master.exhilaro.com
       {% endif %}
 
 zabbix-agent2.service:
