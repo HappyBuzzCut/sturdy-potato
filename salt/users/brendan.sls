@@ -4,7 +4,6 @@ brendan:
     - home: /home/brendan
     - shell: /bin/bash
     - createhome: True
-    - password: '$5$bxLDHCQaVN0viUEJ$j2Bok2e5UcGB6xusPIqH5l.JeB78Tgsar5pSaGNOWhD'
     - optional_groups:
       - docker
       - salt
