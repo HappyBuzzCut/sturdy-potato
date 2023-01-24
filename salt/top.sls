@@ -3,6 +3,7 @@ base:
    - core
    - configs
    - users
+   - post
 
   'mydb-silo*':
    - mysqlserver
