@@ -3,4 +3,4 @@ rm -f /etc/ssh/sshd_config.d/01-permitrootlogin.conf:
 
 sshd:
   service.running:
-    - reload: True
+    - full_restart: True
